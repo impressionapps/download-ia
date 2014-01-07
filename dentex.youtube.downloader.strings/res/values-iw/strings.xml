@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title_activity_settings">הגדרות</string>
+    <string name="title_activity_upgrade_apk">שדרג</string>
+    <string name="title_activity_about">אודות</string>
+    <string name="title_activity_donate">תרומות</string>
+    <string name="title_activity_tutorials">הדרכות</string>
+    <string name="title_activity_translators_show">מתרגמים</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+
+    
+    
+    <string name="rating_title">Rate Us</string>
+	<string name="rating_msg">האם אתם אוהבים להשתמש ביישום זה, אנא תקן אותנו לפי דירוגנו!</string>
+    
+    
+    
+    <!-- ### ShareActivity ### -->
+
+    <string name="tutorial_title">מדריך כללי לאפליקצייה</string>
+	<string name="tutorial_msg_new">עכשיו אתם תראו רשימה עם כל ה קודקים ואיכויות נוכחים לסרטון הנבחר. את/ה יכול/ה:
+ssh ללחוץ על פריט בשביל להוריד את הווידיאו על הטלפון או לשלוח למחשב. דרישות למכונת יעד: באש ו.
+ללחוץ לחיצה ארוכה על פריט ולבחור בין להעתיק למקלדת או להעביר כטקסט(דוגמא לשלוח לאפליקצייה אחרת)נא להבין שקובץ כזה יכול להשמש רק מאותו מכשיר שבו הוא נוצר או ממכונה שעל על אותה רשת של לאן,אם שולחים למכשיר אחר</string>
+    <string name="loading">טוען&#8230;</string>
+    <string name="error">שגיאה!</string>
+    <string name="information">מידע</string>
+    <string name="dialogs_negative">בטל</string>
+    <string name="wait">אנא המתן&#8230;</string>
+    <string name="no_downloads_sys_app">\"Downloads\" system App not found.</string>
+    <string name="ytd_useless">YTD לא יכול להוריד קבצים במכשיר הזה</string>
+    <string name="invalid_url">לא מצליח לאחזר דף אינטרנט. כתובת האתר עלולה להיות לא חוקית.</string>
+    <string name="invalid_url_short">לא מצליח לאחזר דף אינטרנט.</string>
+    <string name="invalid_response">תגובת שרת HTTP לא חוקית.</string>
+    <string name="rtmpe_streams">Invalid HTTP server response.</string>
+    <string name="bad_link">בדוק את הקישור המצורף.</string>
+    <string name="bad_link_dialog_msg">קישור YouTube אינו תקף.</string>
+    <string name="no_net">אין חיבור זמין.</string>
+    <string name="no_net_dialog_msg">אנא, הפעל את החיבור רשת .</string>
+    <string name="no_market">אין יישום זמין בחנות.</string>
+    <string name="no_market_dialog_msg">אנא, התקן את Google Play.</string>
+    <string name="list_click_dialog_title">אשר הורדה של:</string>
+    <string name="list_click_download_local">הורד כאן</string>
+    <string name="list_click_download_ssh">שלך דרך SSH</string>
+    <string name="rename_dialog_title">שם קובץ חדש:</string>
+    <string name="rename_dialog_msg">אל תזין סיומת קובץ (כמו. MP4 או. FLV).</string>
+    <string name="unable_save">לא ניתן לשמור את הסרטון!</string>
+    <string name="unable_save_dialog_msg">תיקיית יעד אינה זמינה ו / או לא ניתנת לכתיבה.</string>
+    <string name="ssh_info_tutorial_title">שלח דרך SSH כיצד לבצע</string>
+    <string name="ssh_info_tutorial_msg">פקודה אחת נטענה בלוח.
+בחר פרופיל ב ConnectBot וברגע שאתה בפקודה מרוחקת, נווט אל תיקייה רצויה,
+הדבק את הפקודה (השתמש וכפתור תפריט) ולחץ אשר.
+</string>
+    <string name="callConnectBot_dialog_title">%1$s לא מותקן!</string>
+    <string name="callConnectBot_dialog_msg">הינך צריך אפליקצייה חינמית זאת, כדי לשלוח את הוידאו להורדה דרך SSH.</string>
+    <string name="callConnectBot_dialog_positive">הורד</string>
+    <string name="download_complete_dialog_msg1">YouTube וידאו:\n</string>
+    <string name="download_complete_dialog_msg2">ההורדה הסתיימה בהצלחה:\n</string>
+    <string name="download_complete_dialog_positive">פתח</string>
+    <string name="downloading">מוריד&#8230;</string>
+    <string name="cancel_download_dialog_title">בטל הורדה?</string>
+    <string name="video_list_error_toast">שגיאה ברשימת וידאו.</string>
+    <string name="codec">\n\n\tקודק:</string>
+    <string name="quality">\n\tאיכות:</string>
+    <string name="size">\n\tגודל:</string>
+    <string name="notification_downloading_pt1">מוריד</string>
+    <string name="notification_downloading_pt2">קבצי וידאו</string>
+    <string name="notification_no_downloads">אין הורדות פועלות</string>
+    <string name="long_click_title">טפל בקישור הנבחר:</string>
+    <string name="ffmpeg_ready">FFmpeg מוכן.</string>
+    <string name="login_required">Login to YouTube may be required.</string>
+    <string name="encrypted_streams">Encrypted video stream</string>
+    <string name="no_video_available">No video available.</string>
+    <string name="retry_button_text">Retry</string>
+    
+    <string-array name="long_click_entries">
+        <item>העתק ללוח העריכה</item>
+        <item>שתף כטקסט</item>
+    </string-array>
+    
+    <string-array name="long_click_entries2">
+        <item>העתק ללוח העריכה</item>
+        <item>שתף כטקסט</item>
+        <item>שלח דרך SSH</item>
+    </string-array>
+    
+    <string name="link_copied">Link copied into clipboard</string>
+    <string name="share_link_via">Share this link via:</string>
+    
+    <string name="filter_header_reset">Reset filters</string>
+    <string name="filter_view_all">View all</string>
+    <string name="filter_header_format">Filter by format</string>
+    <string name="filter_header_quality">Filter by quality</string>
+    <string name="filter_header_others">Other filters</string>
+
+    <string name="filter_ld">Large</string>
+    <string name="filter_md">Medium</string>
+    <string name="filter_sd">Small</string>
+    <string name="filter_vo">Video-only</string>
+    <string name="filter_ao">Audio-only</string>
+    
+    <!-- ### SettingsActivity ### -->
+
+    <string name="attention">שים לב!</string>
+    <string name="system_warning_title">זוהי תיקיית מערכת</string>
+    <string name="system_warning_msg">נתיב שנבחר יחזור בחזרה על תיקיית ההורדות של \ssdcard סטנדרטית.</string>
+    <string name="sdcard_unmounted_warning">כרטיס SD לא טעון</string>
+    <string name="update_disabled_summary">נמצאה חתימה שונה (F-Droid?)</string>
+    <string name="failed_download">הורדה כושלת הוסרה</string>
+    <string name="new_v_download">נמצא. מוריד$#8230;</string>
+    <string name="new_v_install">הוריד. לחץ להתקנה.</string>
+    <string name="ffmpeg_download_dialog_title">יש צורך בקובץ נוסף. הורד אותו עכשיו?</string>
+    <string name="ffmpeg_download_dialog_msg">קישור אינטרנט:</string>
+    <string name="ffmpeg_device_not_supported">מכשיר עדיין אינו נתמך.</string>
+    <string name="ffmpeg_support_mail">שלח דוא"ל למפתח?
+\nתוכל לסקור את כל המידע ביישום הדואר האלקטרוני שלך לפני שאתה שולח את כל הנתונים.</string>
+    <string name="ffmpeg_download_notification">הורדת FFmpeg</string>
+    <string name="ffmpeg_install">התקנת FFmpeg בינארי&#8230;</string>
+    <string name="email_via">שלח דוא"ל באמצעות:</string>
+    
+    <!-- ### UpgradeApkActivity ### -->
+    
+    <string name="upgrade_button_init">עדכן</string>
+    <string name="upgrade_button_download">הורד \ n התקן</string>
+    <string name="upgrade_uppertext_searching">מחפש&#8230;</string>
+    <string name="upgrade_uppertext_init">גרסה מותקנת:\n</string>
+
+    <string name="upgrade_latest">אחרון:\t</string>
+    <string name="upgrade_installed">\nהותקן:\t</string>
+    <string name="upgraded_dialog_msg">גרסה חדשה מאוחסנת בכרטיס סטנדרטי \'הורדה\' תיקייה\n\nהתקן?</string>
+    <string name="upgraded_dialog_negative">מאוחר יותר \ n (באופן ידני)</string>
+    <string name="upgrade_latest_installed">הגרסה האחרונה כבר מותקנת!</string>
+    <string name="upgrade_network_error">לא ניתן לאחזר את נתוני עדכון. \n נסה מאוחר יותר.</string>
+    <string name="upgrade_bad_md5_dialog_msg">החבילה שהורדת פגומה. \nימחק עכשיו\n לחץ אישור להוריד שוב.</string>
+    
+    <!-- ### ### -->
+    
+    <string name="ytd_video">וידאו מתחילת השנה</string>
+    <string name="copy_error">Error during copy.</string>
+    <string name="copy_progress">העתק קובץ בתהליך&#8230;</string>
+    <string name="copy_ok">File copy completed.</string>
+    <string name="download_remove_failed">שגיאה: קובץ זמני שהורד לא הוסר!</string>
+    <string name="download_failed">ההורדה נכשלה!</string>
+    <string name="audio_extr_progress">חילוץ אודיו בתהליך&#8230;</string>
+    <string name="audio_conv_progress">אודיו קידוד ל-MP3 בתהליך&#8230;</string>
+    <string name="audio_extr_completed">חילוץ שמע הושלם.</string>
+    <string name="audio_conv_completed">קידוד ל-MP3 הושלם.</string>
+    <string name="audio_extr_error">שגיאה במהלך חילוץ אודיו.</string>
+    <string name="audio_conv_error">שגיאה במהלך קידוד אודיו ל-MP3.</string>
+    <string name="auto_audio_extr_progress">%1$s of %2$s audio extractions completed</string>
+    <string name="auto_audio_extr_completed">All audio extractions completed</string>
+    
+    <!-- ### DonateActivity ### -->
+    
+    <string name="paypal_item_name">תרומת מתחילת השנה</string>
+	<string name="paypal_summary">תמיכת מפתח מתחילת השנה\'s בתרומה</string>
+	<string name="flattr_summary">Flattr this App</string>
+	
+	<!-- ### FfmpegDownloadService ### -->
+	<string name="ffmpeg_install_failed">FFmpeg התקנה נכשלה.</string>
+	
+	<!-- ### DashboardActivity ### -->
+	<string name="json_status_completed">Completed</string>
+	<string name="json_status_failed">Failed</string>
+	<string name="json_status_in_progress">In Progress</string>
+	<string name="json_status_paused">Paused</string>
+	<string name="json_status_imported">Imported</string>
+	<string name="menu_search">search&#8230;</string>
+	<string name="menu_backup">Backup</string>
+	<string name="menu_restore">Restore</string>
+	<string name="menu_import">Import a video</string>
+	<string name="menu_import_file">Import a file</string>
+	<string name="menu_import_double">Video already added.</string>
+	<string name="menu_import_file_double">File already added.</string>
+	<string name="menu_backup_info">Choose a folder to Backup Dashboard\'s data</string>
+	<string name="menu_restore_info">Restore Dashboard\'s data from file</string>
+	<string name="menu_restore_info_msg">Present data will be overwritten.</string>
+	<string name="menu_import_info">Import a video and manage it from the Dashboard</string>
+	<string name="menu_import_file_info">Import a file and manage it from the Dashboard</string>
+	<string name="menu_backup_result_ok">Dashboard data backup OK.</string>
+	<string name="menu_backup_result_failed">Error during backup.</string>
+	<string name="menu_restore_result_ok">Dashboard data restored.</string>
+	<string name="menu_restore_result_failed">Error during restore.</string>
+	<string name="unsupported_operation">Unsupported operation.</string>
+	<string name="ffmpeg_already_running">FFmpeg is already running.</string>
+	<string name="invalid_data">Invalid data.</string>
+	<string name="open_chooser_title">Open with:</string>
+	
+	<string-array name="dashboard_click_entries">
+	    <item>Open</item>
+	    <item>Extract audio only</item>
+        <item>Extract and encode audio to mp3</item>
+    </string-array>
+    
+	<string-array name="dashboard_click_entries_audio">
+	    <item>Open</item>
+        <item>Encode to mp3</item>
+    </string-array>
+    
+	<string name="ffmpeg_not_enabled_title">FFmpeg not installed or enabled:</string>
+	<string name="ffmpeg_not_enabled_msg">Open settings?</string>
+	<string name="remove_video">Delete video after audio extraction (no confirmation!)</string>
+	<string name="remove_original_audio">Delete audio after conversion (no confirmation!)</string>
+	<string name="edit_id3_tags">Edit ID3 tags</string>
+	<string name="id3_album">Album</string>
+	<string name="id3_artist">Artist</string>
+	<string name="id3_title">Title</string>
+	<string name="id3_year">Year</string>
+	<string name="id3_genre">Genre</string>
+	
+	<string name="audio_extr_info">Contained audio stream:</string>
+
+	<string-array name="dashboard_long_click_entries">
+	    <item>Copy</item>
+	    <item>Move</item>
+        <item>Rename</item>
+        <item>Re-download the video</item>
+        <item>Remove from Dashboard</item>
+        <item>Remove and delete file</item>
+        <item>Pause/Resume</item>
+    </string-array>
+    
+	<string name="operation_standby">Stand-by: another operation is already in progress.</string>
+	<string name="dashboard_delete_data_cb">Delete also all listed video/audio files</string>
+    
+	<string name="move_error">Error during move.</string>
+    <string name="move_progress">File move in progress&#8230;</string>
+    <string name="move_ok">File move completed.</string>
+    <string name="long_press_warning_title">Operation not executed:</string>
+    <string name="long_press_warning_msg">Source and destination folders overlap.</string>
+    <string name="long_press_warning_msg2">A copy already exists in this folder.</string>
+    <string name="audio_extr_warning_msg">Same audio file already extracted.</string>
+
+	<string name="delete_video_confirm">Confirm you want to delete this video?</string>
+	<string name="remove_video_confirm">Confirm you want to remove this video?</string>
+	<string name="delete_video_ok">%1$s successfully deleted.</string>
+	<string name="delete_video_failed">Error: %1$s not deleted.</string>
+	
+	<string name="empty_dashboard">No downloaded video.</string>
+
+    <!-- ### preferences ### -->
+
+    <!-- -->
+    <string name="dashboard_summary">Open YTD\'s Dashboard</string>
+
+    <!-- -->
+    <string name="settings_cat_ui">ממשק משתמש</string>
+    <string name="lang_title">שפה</string>
+    <string name="lang_dialog_title">Choose UI language:</string>
+    <string name="choose_theme_title">בחר ערכת נושא</string>
+    <string-array name="choose_theme_entries">
+        <item>כהה</item>
+        <item>בהיר</item>
+    </string-array>
+    
+    <!-- -->
+    <string name="quick_start_title">התחלה מהירה</string>
+    <string name="quick_start_summ">פתח מדריך להתחלה מהירה</string>
+    <string name="quick_start_text">כאן הן ההגדרות ל \'YouTube Downloader\'.
+\n\nניתן בפועל לגשת לאפליקצייה דרך כפתור שתף באפליקציה של YouTube, תוך כדי צפייה בוידאו.
+\n\n\לאחר מכן בחר \'YouTube Downloader\' ותקבל מידע על שימוש נוסף.
+\n\nאתה יכול גם לשתף כל קישור טקסט רגיל של YouTube דרך כל יישום אחר: כלומר הדפדפן שלך.
+</string>
+    <string name="general_info_title">אפשר כללי כיצד לבצע</string>
+    <string name="general_info_summary">הצג הדרכה לאפליקצייה בהפעלה</string>
+    <string name="show_again_checkbox">הצג שוב בפעם הבאה</string>
+    <string name="ssh_info_title">אפשר SSH כיצד לבצע</string>
+    <string name="ssh_info_summary">הצג טיפ מהיר על הורדה מרחוק דרך SSH</string>
+    <string name="audio_tutorial_title">הדרכה חילוץ אודיו</string>
+    <string name="audio_tutorial_summary">פתח את מדריך קצר על תכונת חילוץ אודיו</string>
+    
+    <!-- -->
+    <string name="settings_cat_folder">הורד תיקייה</string>
+    <string name="standard_location_title">בחר תיקייה סטנדרטית</string>
+    <string name="chooser_swap_title">החלף בורר</string>
+    <string name="chooser_location_title">פתח בוחר קבצים</string>
+    <string name="chooser_location_summary">לחיצה ארוכה לבחירת תיקייה</string>
+	
+    <!-- -->
+    <string name="settings_cat_files">קבצי וידאו</string>
+    <string name="enable_rename_title">אפשר שינוי שם קובץ</string>
+    <string name="enable_rename_summary">שנה את שם קובץ וידאו לפני הורדתו (להורדה המקומית בלבד)</string>
+	<string name="show_thumb_title">הצג תצוגה מקדימה של תמונה</string>
+    <string name="show_thumb_summary">הורד תמונת תצוגה מקדימה יחד עם רשימת הווידאו</string>
+
+    <!-- -->
+    <string name="settings_cat_advanced">מתקדם</string>
+    <string name="enable_advanced_features_title">Enable Advanced Features</string>
+    <string name="enable_advanced_features_summary">Download FFmpeg \"plugin\"</string>
+    <string name="mp3_bitrate_title">Mp3 encoding bitrate:</string>
+    
+    <string name="ffmpeg_auto_title">Auto-extract audio</string>
+    <string name="ffmpeg_auto_summary">Extract or convert audio to mp3 automatically after every download</string>
+    <string name="ffmpeg_auto_cb_title">Enable automatic extraction</string>
+    <string name="ffmpeg_auto_cb_summary">Choose parameters below</string>
+    
+    <string name="audio_extraction_type_title">סוג החילוץ</string>
+    <string-array name="audio_extraction_type_entries">
+	    <item>Extract audio only</item>
+        <item>Extract and encode audio to mp3</item>
+    </string-array>
+    
+    <string name="remove_video_title">הסרת וידאו</string>
+    
+    <string name="enable_adaptive_title">Get secondary streams</string>
+    <string name="enable_adaptive_summary">Add video-only and/or audio-only streams (if available) to the video list</string>
+        
+    <!-- -->
+    <string name="settings_cat_notifications">התראות</string>
+    
+    <string name="notification_defaults_title">ברירות המחדל של הודעה</string>
+    <string name="notification_defaults_dialog_title">ברירות מחדל של הודעת מתחילת השנה</string>
+    <string-array name="notification_defaults_entries">
+        <item>צליל ורטט</item>
+        <item>צליל ותאורה</item>
+        <item>רטט ואורות</item>
+        <item>צליל, רטט ותאורה</item>
+        <item>צליל</item>
+        <item>רטט</item>
+        <item>תאורה</item>
+        <item>כלום</item>
+    </string-array>   
+    
+    <!-- -->
+    <string name="settings_cat_updates">עדכונים</string>
+    <string name="update_title">בדוק עדכונים</string>
+    <string name="autoupdate_title">אפשר עדכון אוטומטי</string>
+    <string name="autoupdate_summary">בדוק עדכונים בריצה ראשונה של היישום ביום הראשון (חבילה חדשה תרד אוטומטית)</string>
+
+    <!-- -->
+    <string name="settings_cat_app">יישום</string>
+    <string name="settings_cat_about_condensed">אודות</string>
+    <string name="title_changelog">רשימת שינויים</string>
+    <string name="settings_cat_licenses">רשיונות</string>
+
+    <string name="credits_title">קרדיט</string>
+    <string name="title_activity_credits_show">רישיונות ותרגומים אחרים</string>
+        
+    <!-- -->
+    <string name="settings_cat_code">קוד מקור</string>
+    <string name="ytd_code_git_title">מתחילת השנה בGitHub</string>
+    <string name="ytd_code_hg_title">מתחילת השנה בSourceforge</string>
+
+    <!-- -->
+    <string name="settings_cat_social">חברותי</string>
+    <string name="share_title">שתף את האפליקציה</string>
+    <string name="share_summary">דרך טוויטר, פייסבוק, ג\'ימייל וכו&#8230;</string>
+    <string name="share_warning">לא נמצאו יישומים מתאימים.</string>
+    <string name="share_message">#YouTubeDownloader
+\nאפליקצייה חינמים מבוססת קוד פתוח לאנדרואיד להורדת וידאו מ YouTube!
+https://sourceforge.net/projects/ytdownloader/files\n
+</string>
+	<string name="help_translate_title">עזרו לתרגם את האפליקציה הזאת</string>
+    <string name="xda_title">Thread on XDA forum</string>
+    
+    <!-- -->
+    <string name="settings_cat_ssh">SSH</string>
+    <string name="connectbot_flavour_title">ConnectBot גרסה לשימוש</string>
+	<string name="connectbot_flavour_dialog_title">בחר  ConnectBot לשלוח וידאו דרך SSH</string>
+	<string name="enable_connectbot_short_cmd_title">אפשר cmd SSH קצר</string>
+	<string name="enable_connectbot_short_cmd_summary">השתמש בפקודה מעט קצרה יותר אך מהירה יותר
+להדביק לתוך המעטפת המרוחקת (יפעל רק אם מחשב היעד מתגורר באותו LAN)</string>
+	<string name="ssh_to_longpress_menu_title">SSH שלח לחיצה ארוכה על תפריט</string>
+	<string name="ssh_to_longpress_menu_summary">העבר\ "שלח דרך SSH\" פעולה בתפריט לחיצה ארוכה הזמינה מרשימת הווידאו</string>
+	
+    <!-- -->
+	<string name="settings_cat_system">System</string>
+	<string name="enable_logging_title">אפשר רישום</string>
+	<string name="enable_logging_summary">כולל הודעות מתחילת השנה\'s ביומן המערכת. חובה לשליחת יומן למפתחים.</string>
+	<string name="clear_dashboard_title">Empty the Dashboard</string>
+	<string name="clear_dashboard_summary">Clear all dashboard\'s references (may fix some crashes)</string>
+	<string name="clear_dashboard_msg">Are you sure?\nThis will clear all the list in the Dashboard.</string>
+	<string name="clear_dashboard_ok">Dashboard cleared.</string>
+	<string name="clear_dashboard_failed">Dashboard emptying failed.</string>
+	
+</resources>
